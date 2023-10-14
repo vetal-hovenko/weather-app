@@ -1,0 +1,28 @@
+body {
+  overflow-x: hidden;
+  background: linear-gradient(110.6deg, rgb(191, 76, 112) -18.3%, rgb(76, 8, 113) 16.4%, rgb(6, 7, 26) 68.2%, rgb(103, 53, 121) 99.1%);
+}
+
+button, input, select {
+  border: none;
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  color: rgba(215, 215, 215, 0.866);
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.177); 
+  border-radius: 5px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgba(80, 106, 125, 0.434); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(51, 110, 150, 0.536);
+}
